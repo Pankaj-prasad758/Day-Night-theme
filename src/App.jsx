@@ -5,6 +5,7 @@ import "./App.css";
 import { ThemeProvider } from "./Context/Theme";
 import ThemeBtn from "./Components/ThemeBtn/ThemeBtn";
 import Card from "./Components/Card/Card";
+
 function App() {
   const [themeMode, setThemeMode] = useState("light");
 
@@ -36,6 +37,7 @@ function App() {
           </div>
         </div>
       </ThemeProvider>
+ 
     </>
   );
 }
